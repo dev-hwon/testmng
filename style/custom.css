@@ -1,0 +1,28 @@
+@import url("webfont.css");
+
+iframe {
+    overflow: hidden;
+    min-height:90vh;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 0;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2f65cb;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}

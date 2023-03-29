@@ -1,0 +1,77 @@
+.menu_table {
+    border-top: 1px solid;
+}
+
+.menu_box_select {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.menu_select {
+    margin-right: 1rem;
+    width: auto;
+}
+
+.menu_box_insert {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+.menu_upd_box {
+    margin-top: 1rem;
+}
+
+.menu_upd_del {
+    margin-top: 1rem;
+}
+
+/* 권한설정레이어 */
+.permission_list {
+    margin-top: 24px;
+    background-color: #fff;
+}
+
+.permission_list ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.permission_list ul li {
+    position: relative;
+}
+
+.permission_list .step_1 ul li {
+    margin-left: 20px;
+    border-left: 1px dashed #999;
+}
+
+.permission_list .step_1 ul li:after {
+    content: "";
+    width: 12px;
+    border-top: 1px dashed #999;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.permission_list li label.accordion-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.permission_list li label.permission_checkbox {
+    margin-left: 0;
+}
+
+.permission_list li label.permission_checkbox+ul {
+    display: none;
+}
+
+.permission_list li label.permission_checkbox.visibleChild+ul {
+    display: block;
+}
